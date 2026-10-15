@@ -6,7 +6,7 @@ A Google Sheets-bound Apps Script that fills vocabulary details from the officia
 
 1. Create or open a Google Sheet and open **Extensions > Apps Script**.
 2. Replace the starter script with `Code.gs` from this project and add the `appsscript.json` manifest from **Project Settings > Show "appsscript.json" manifest file**.
-3. In Apps Script **Project Settings > Script Properties**, add `MW_COLLEGIATE_API_KEY` with your Collegiate Dictionary API key. The key is kept in Script Properties, not in the source.
+3. In Apps Script **Project Settings > Script Properties**, add `MW_COLLEGIATE_API_KEY` with your Collegiate Dictionary API key. The key is kept in Script Properties, not in the source. The value of the API KEY should be your own. It needs to be the value of YOUR API KEY.
 4. Save and reload the Sheet. Choose **Merriam-Webster Vocabulary > Set Up Vocabulary Sheet** and approve Google's requested Sheets, external-request, and trigger permissions.
 
 The setup action creates the five headers and installs an authorized edit trigger. The first use of URL fetching and trigger installation requires Google authorization. No Apps Script project can be deployed into your Google account from this local workspace.
