@@ -1,0 +1,8 @@
+README.md
+package.json
+package-lock.json
+tests/**
+node_modules/**
+.git/**
+.gitignore
+.claspignore
